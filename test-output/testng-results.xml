@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="13" passed="11">
+  <reporter-output>
+  </reporter-output>
+  <suite name="basicAnnotations" duration-ms="303" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+    <groups>
+      <group name="database">
+        <method signature="GroupsTest.test2()[pri:0, instance:testNG.GroupsTest@86be70a]" name="test2" class="testNG.GroupsTest"/>
+      </group> <!-- database -->
+      <group name="regression">
+        <method signature="GroupsTest.test1()[pri:0, instance:testNG.GroupsTest@86be70a]" name="test1" class="testNG.GroupsTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="GroupsTest.test1()[pri:0, instance:testNG.GroupsTest@86be70a]" name="test1" class="testNG.GroupsTest"/>
+        <method signature="GroupsTest.test2()[pri:0, instance:testNG.GroupsTest@86be70a]" name="test2" class="testNG.GroupsTest"/>
+        <method signature="GroupsTest.test3()[pri:0, instance:testNG.GroupsTest@86be70a]" name="test3" class="testNG.GroupsTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="basicAnnotations" duration-ms="61" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+      <class name="testNG.Allannotations">
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:testNG.Allannotations@3712b94]" name="beforeTest" is-config="true" duration-ms="0" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="beforeClass()[pri:0, instance:testNG.Allannotations@3712b94]" name="beforeClass" is-config="true" duration-ms="0" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method status="PASS" signature="Test1()[pri:0, instance:testNG.Allannotations@3712b94]" name="Test1" duration-ms="10" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test1 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.Allannotations@3712b94]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.Allannotations@3712b94]" name="afterMethod" is-config="true" duration-ms="5" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="Test2()[pri:0, instance:testNG.Allannotations@3712b94]" name="Test2" duration-ms="5" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Test2 -->
+        <test-method status="PASS" signature="beforeMethod()[pri:0, instance:testNG.Allannotations@3712b94]" name="beforeMethod" is-config="true" duration-ms="0" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:testNG.Allannotations@3712b94]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="afterClass()[pri:0, instance:testNG.Allannotations@3712b94]" name="afterClass" is-config="true" duration-ms="0" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:testNG.Allannotations@3712b94]" name="afterTest" is-config="true" duration-ms="0" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+      </class> <!-- testNG.Allannotations -->
+    </test> <!-- basicAnnotations -->
+    <test name="GropusTest" duration-ms="25" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+      <class name="testNG.GroupsTest">
+        <test-method status="PASS" signature="setUP()[pri:0, instance:testNG.GroupsTest@86be70a]" name="setUP" is-config="true" duration-ms="0" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUP -->
+        <test-method status="PASS" signature="test1()[pri:0, instance:testNG.GroupsTest@86be70a]" name="test1" duration-ms="0" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method status="PASS" signature="test2()[pri:0, instance:testNG.GroupsTest@86be70a]" name="test2" duration-ms="5" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test2 -->
+        <test-method status="PASS" signature="test3()[pri:0, instance:testNG.GroupsTest@86be70a]" name="test3" duration-ms="5" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test3 -->
+      </class> <!-- testNG.GroupsTest -->
+    </test> <!-- GropusTest -->
+    <test name="ParametersTest1" duration-ms="15" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+      <class name="testNG.ParametersTest">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:testNG.ParametersTest@2173f6d9]" name="testLogin" duration-ms="0" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Balu123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Balu@123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- testNG.ParametersTest -->
+    </test> <!-- ParametersTest1 -->
+    <test name="ParametersTest2" duration-ms="5" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+      <class name="testNG.ParametersTest">
+        <test-method status="PASS" signature="testLogin(java.lang.String, java.lang.String)[pri:0, instance:testNG.ParametersTest@631330c]" name="testLogin" duration-ms="5" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Balu123]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Balu@123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+      </class> <!-- testNG.ParametersTest -->
+    </test> <!-- ParametersTest2 -->
+    <test name="DataProviderTest" duration-ms="35" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+      <class name="testNG.DataProviderTest">
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:testNG.DataProviderTest@32d2fa64]" name="test" duration-ms="0" started-at="2018-02-18T13:38:02Z" data-provider="testData" finished-at="2018-02-18T13:38:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userName1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password1]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:testNG.DataProviderTest@32d2fa64]" name="test" duration-ms="5" started-at="2018-02-18T13:38:02Z" data-provider="testData" finished-at="2018-02-18T13:38:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userName2]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password2]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+        <test-method status="PASS" signature="test(java.lang.String, java.lang.String)[pri:0, instance:testNG.DataProviderTest@32d2fa64]" name="test" duration-ms="0" started-at="2018-02-18T13:38:02Z" data-provider="testData" finished-at="2018-02-18T13:38:02Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[userName3]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[password3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test -->
+      </class> <!-- testNG.DataProviderTest -->
+    </test> <!-- DataProviderTest -->
+    <test name="EnableAndDisableTest" duration-ms="37" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+      <class name="testNG.Allannotations">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:testNG.Allannotations@3712b94]" name="beforeSuite" is-config="true" duration-ms="15" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:testNG.Allannotations@3712b94]" name="afterSuite" is-config="true" duration-ms="0" started-at="2018-02-18T13:38:02Z" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- testNG.Allannotations -->
+      <class name="testNG.EnableAndDisableTest">
+        <test-method status="PASS" signature="login()[pri:0, instance:testNG.EnableAndDisableTest@5bb21b69]" name="login" duration-ms="0" started-at="2018-02-18T13:38:02Z" description="Login with valid data" finished-at="2018-02-18T13:38:02Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+      </class> <!-- testNG.EnableAndDisableTest -->
+    </test> <!-- EnableAndDisableTest -->
+  </suite> <!-- basicAnnotations -->
+</testng-results>
